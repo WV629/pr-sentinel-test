@@ -8,7 +8,7 @@ development. It is **not** the agent itself — the agent lives in `WV629/pr-sen
 
 ## What is in here
 
-- `calc.py` — a tiny arithmetic module used to recieve test inputs.
+- `calc.py` — a tiny arithmetic module used to receive test inputs.
 - `test_calc.py` — pytest tests for `calc.py`.
 - Fixture PRs (open against `main`):
   1. a planted bug that breaks a test,
@@ -23,5 +23,5 @@ python -m pytest -q
 
 ## Layout
 
-The module and its tests are kept seperate so the agent can run pytest and
+The module and its tests are kept separate so the agent can run pytest and
 ruff in a sandbox without touching anything else.
