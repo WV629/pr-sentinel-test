@@ -22,4 +22,4 @@ def apply_discount(total, rate):
     """Return total after a `rate` (0-1) discount is applied."""
     if not 0 <= rate <= 1:
         raise ValueError("rate must be between 0 and 1")
-    return total - total * rate
+    return total - rate
