@@ -25,3 +25,4 @@ python -m pytest -q
 
 The module and its tests are kept seperate so the agent can run pytest and
 ruff in a sandbox without touching anything else.
+The test enviroment needs nothing more than Python 3.11+ and pytest.
